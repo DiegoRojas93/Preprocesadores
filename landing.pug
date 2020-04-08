@@ -4,6 +4,14 @@
 
 -var usuario = 'Diego'
 
+mixin caja (imagen, titulo, contenido)
+	.caja
+				.caja__imagen: img(src="images/"+imagen)
+				.caja__contenido
+					h3=titulo
+					p=contenido
+					a.boton Leer mas
+
 doctype html
 html
 	head
@@ -23,12 +31,10 @@ html
 			.intro__contenido
 				h2 #{Titulos[0][3]}
 				p
-					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia
-					| minima itaque id aperiam aliquam ullam quo facere atque.
-					| Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum sunt natus voluptatem aliquid iste reprehenderit facere et est, id sed doloribus dolore? Facere recusandae similique eveniet. Nulla, fugit voluptatem?
+					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
 					span Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
 				a.boton Leer más
-		ul
-			// Loop utilizados en listas
-			each titulo in Titulos
-				li=titulo
+		main.contenido
+			+caja('imagen.png',Titulos[1], 'Lorem ipsum, dolor sit amet')
+			+caja('imagen.png', Titulos[2], 'Lorem ipsum, dolor sit amet')
+			+caja('imagen.png', Titulos[3], 'Lorem ipsum, dolor sit amet')
