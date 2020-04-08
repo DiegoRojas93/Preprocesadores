@@ -7,3 +7,14 @@ html
 		header
 			h1 PlatziGames
 			a.boton Registro
+		section.intro
+			//Podemos interpolar si tenemos un solo elemento dentro de otro; utilizando : y con un espacio para separar otro elemento
+			div.intro__imagen: img(src="images/imagen.png")
+			.intro__contenido
+				h2 Titulo Principal
+				//Podemos intermolar parrafos utilizando . despues de la etiqueta p o si quiero espacio entre parrafos usamos |
+				p
+					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia | minima itaque id aperiam aliquam ullam quo facere atque.
+					| Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum sunt natus voluptatem aliquid iste reprehenderit facere et est, id sed doloribus dolore? Facere recusandae similique eveniet. Nulla, fugit voluptatem?
+					span Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
+				a.boton Leer más
