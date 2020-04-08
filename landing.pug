@@ -1,3 +1,9 @@
+-var Titulo = "Titulo principal"
+
+-var Titulos = ['Titulo principal', 'subtitulo 1', 'subtitulo 2', 'subtitulo 3']
+
+-var usuario = 'Diego'
+
 doctype html
 html
 	head
@@ -6,15 +12,23 @@ html
 	body
 		header
 			h1 PlatziGames
-			a.boton Registro
+
+			// condicioneles
+			if usuario
+				a Hola #{usuario}
+			else
+				a.boton Registro
 		section.intro
-			//Podemos interpolar si tenemos un solo elemento dentro de otro; utilizando : y con un espacio para separar otro elemento
 			div.intro__imagen: img(src="images/imagen.png")
 			.intro__contenido
-				h2 Titulo Principal
-				//Podemos intermolar parrafos utilizando . despues de la etiqueta p o si quiero espacio entre parrafos usamos |
+				h2 #{Titulos[0][3]}
 				p
-					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia | minima itaque id aperiam aliquam ullam quo facere atque.
+					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia
+					| minima itaque id aperiam aliquam ullam quo facere atque.
 					| Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum sunt natus voluptatem aliquid iste reprehenderit facere et est, id sed doloribus dolore? Facere recusandae similique eveniet. Nulla, fugit voluptatem?
 					span Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
 				a.boton Leer más
+		ul
+			// Loop utilizados en listas
+			each titulo in Titulos
+				li=titulo
