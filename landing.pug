@@ -1,35 +1,9 @@
--var Titulo = "Titulo principal"
-
--var Titulos = ['Titulo principal', 'subtitulo 1', 'subtitulo 2', 'subtitulo 3']
-
--var usuario = 'Diego'
-
-mixin caja (imagen, titulo, contenido)
-	.caja
-				.caja__imagen: img(src="images/"+imagen)
-				.caja__contenido
-					h3=titulo
-					p=contenido
-					a.boton Leer mas
-
-doctype html
-html
-	head
-		meta(charset="UTF-8")
-		link(rel="stylesheet",href='css/ejercicio-pug.css')
-	body
-		header
-			h1 PlatziGames
-
-			// condicioneles
-			if usuario
-				a Hola #{usuario}
-			else
-				a.boton Registro
+extend componentes/plantilla.pug
+block contenidos
 		section.intro
 			div.intro__imagen: img(src="images/imagen.png")
 			.intro__contenido
-				h2 #{Titulos[0][3]}
+				h2 #{Titulos[0]}
 				p
 					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
 					span Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
