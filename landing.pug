@@ -1,14 +1,18 @@
-extend componentes/plantilla.pug
+extend componentes/platilla.pug
 block contenidos
-		section.intro
-			div.intro__imagen: img(src="images/imagen.png")
-			.intro__contenido
-				h2 #{Titulos[0]}
-				p
-					| Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
-					span Quae iure dolore saepe obcaecati asperiores impedit dicta inventore quaerat illum cupiditate, mollitia minima itaque id aperiam aliquam ullam quo facere atque.
-				a.boton Leer más
-		main.contenido
-			+caja('imagen.png',Titulos[1], 'Lorem ipsum, dolor sit amet')
-			+caja('imagen.png', Titulos[2], 'Lorem ipsum, dolor sit amet')
-			+caja('imagen.png', Titulos[3], 'Lorem ipsum, dolor sit amet')
+    section.intro
+      .intro__imagen: img(src="images/imagen.png", alt="imagen")
+      .intro__contenido
+        h2 #{titulos[0]}
+        p
+          | Lorem ipsum dolor sit amet
+          | consectetur adipisicing elit.
+          | Proin ex mi, gravida sit amet imperdiet vel, sodades a mi.
+          | Proin sit amet tellus nec nisl bidendum ornare nec at augue.
+          | Integer semper feugiat varius.
+          span Proin sed urna quis orci interdum run.
+        a.boton Ver más
+    main.contenido
+      +caja ("imagen.png",titulos[1], 'Lorem ipsum dolor sit amet')
+      +caja ("imagen.png",titulos[2], 'Lorem ipsum dolor sit amet')
+      +caja ("imagen.png",titulos[3], 'Lorem ipsum dolor sit amet')

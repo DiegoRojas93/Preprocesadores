@@ -1,16 +1,12 @@
--var Titulo = "Titulo principal"
+-var titulos = ['Titulo principal', 'subtitulo 1', 'subtitulo 2', 'subtitulo 3'];
 
--var Titulos = ['Titulo principal', 'subtitulo 1', 'subtitulo 2', 'subtitulo 3']
+-var enlaces = ['Acerca', 'Noticias', 'Contacto'];
 
--var usuario = 'Diego'
--var enlaces = ['acerca', 'Noticias', 'contacto']
-
-
+-var usuario = 'Diego';
 
 mixin caja (imagen, titulo, contenido)
-	.caja
-				.caja__imagen: img(src="images/"+imagen)
-				.caja__contenido
-					h3=titulo
-					p=contenido
-					a.boton Leer mas
+  .caja
+    .caja__imagen: img(src="images/"+imagen, alt="imagen")
+    .caja__contenido
+      h3=titulo
+      p=contenido
