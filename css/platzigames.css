@@ -13,6 +13,7 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   color: #333333;
+  font-size: 18px;
   line-height: 28px;
 }
 h1,
@@ -36,7 +37,7 @@ h3 {
   width: 1320px;
   position: absolute;
 }
-.intro__imagen img img {
+.intro__imagen img {
   width: 100%;
   height: 624px;
   object-fit: cover;
@@ -61,7 +62,7 @@ h3 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 50px;
-  line-height: 68px;
+  line-height: 60px;
 }
 .intro__autor {
   width: 150px;
@@ -90,12 +91,14 @@ h3 {
   margin: 0 auto;
 }
 .articulo--principal__intro {
-  font-size: 26px;
+  font-size: 25px;
+  line-height: 35px;
 }
 .articulo--principal h2 {
   margin: 40px 0 40px 0;
-  font-size: 50px;
   text-align: center;
+  font-size: 50px;
+  line-height: 60px;
 }
 .articulo--principal h3 {
   color: #8841da;
