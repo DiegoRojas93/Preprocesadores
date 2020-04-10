@@ -5,6 +5,8 @@ Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que añade car
 Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
 
 
-### Funciones
+### Condicionales y Loops
 
-La diferencia entre mixins y funciones es que las funciones por general hacen cálculos y regresan un resultado que es usado como valor de alguna propiedad.
+Un **condicional** nos permite evaluar cierta condición y bifurcar entre dos caminos dependiendo de si se cumple o no.
+
+Un **loop** es un fragmento de código que va a ejecutar de forma repetitiva hasta que cumpla una condición.
