@@ -5,8 +5,6 @@ Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que añade car
 Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
 
 
-### Import y Extends
+### Funciones
 
-**Import** nos permite escribir código modular separando en diferentes archivos para después importarlos todos en uno solo y tener una base código mucho más ordenada.
-
-**Extends** sirve para insertar los estilos de un selector en otro.
+La diferencia entre mixins y funciones es que las funciones por general hacen cálculos y regresan un resultado que es usado como valor de alguna propiedad.
