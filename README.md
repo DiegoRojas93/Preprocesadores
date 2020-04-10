@@ -5,8 +5,8 @@ Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que añade car
 Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
 
 
-### Variables
+### Import y Extends
 
-En las variables almacenamos datos que se puede reutilizar en todas nuestras hojas de estilos. Así evitamos tener que escribir lo mismo una y otra vez cuando se realiza algún cambio, ya que sólo vamos a modificar el valor de la variable y se aplicará a todos los lugares donde sea usada.
+**Import** nos permite escribir código modular separando en diferentes archivos para después importarlos todos en uno solo y tener una base código mucho más ordenada.
 
-Comúnmente almacenamos en variables las guías de estilo de nuestro sitio, como pueden ser los colores y fuentes.
+**Extends** sirve para insertar los estilos de un selector en otro.
