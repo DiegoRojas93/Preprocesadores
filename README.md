@@ -2,4 +2,4 @@
 
 Less es un preprocesador para CSS que nos permite trabajar hojas de estilo con funcionalidades de un lenguaje de programación.
 
-### Finalizando ejercicio de página de artículos
+### Reto
