@@ -5,8 +5,4 @@ Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que añade car
 Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
 
 
-### Condicionales y Loops
-
-Un **condicional** nos permite evaluar cierta condición y bifurcar entre dos caminos dependiendo de si se cumple o no.
-
-Un **loop** es un fragmento de código que va a ejecutar de forma repetitiva hasta que cumpla una condición.
+### Finalizando ejercicio de perfil de usuario
