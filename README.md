@@ -3,8 +3,8 @@
 Es el preprocesador CSS más reciente de los tres. Fue creado por TJ Holowaychuk (ex programador de Node.js) y escrito en JADE y Node.js.
 
 
-### Anidaciones y sintaxis
+### Variables
 
-La **sintaxis** de Stylus que se debe saber es que no lleva corchetes { } y no utiliza el punto y coma ;
+En las variables almacenamos datos que se puede reutilizar en todas nuestras hojas de estilos. Así evitamos tener que escribir lo mismo una y otra vez cuando se realiza algún cambio, ya que sólo vamos a modificar el valor de la variable y se aplicará a todos los lugares donde sea usada.
 
-Las **anidaciones** se utilizan es igual como los demas procesadores utilizando el ampersand &
+Comúnmente almacenamos en variables las guías de estilo de nuestro sitio, como pueden ser los colores y fuentes.
