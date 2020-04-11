@@ -1,8 +1,3 @@
-# Introducción a Sass
+# Introducción a Stylus
 
-Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que añade características muy potentes y elegantes a este lenguaje de estilos.
-
-Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
-
-
-### Finalizando ejercicio de perfil de usuario
+Es el preprocesador CSS más reciente de los tres. Fue creado por TJ Holowaychuk (ex programador de Node.js) y escrito en JADE y Node.js.
