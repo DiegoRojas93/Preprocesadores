@@ -4,10 +4,15 @@
   contenedor()
 
 .caja
-  max-width: 430px
+  max-width 430px
+  height auto
+  margin: 0 10px
   caja-sombra()
+  img
+    width: 100%
   &__contenido
-    padding 20px
+    padding: 20px
+    padding-top: 20px
     background-color: color-claro
     span
       color color-secundario
@@ -15,6 +20,8 @@
     h3
       font-weight: normal
       titulos(Fuente2)
-  &__imagen
-    img
-      width: 100%
+    p
+      margin: auto 0
+
+.contenido2
+  @extend .contenido

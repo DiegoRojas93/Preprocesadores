@@ -36,7 +36,7 @@ body {
 }
 .encabezado--con-filtros {
   display: flex;
-  width: 96%;
+  width: 90%;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -65,21 +65,28 @@ body {
   font-size: 25px;
   color: #333;
 }
-.contenido {
+.contenido,
+.contenido2 {
   margin-bottom: 40px;
   justify-content: space-evenly;
   display: flex;
-  width: 96%;
+  width: 90%;
   margin: 0 auto;
   padding: 30px 0;
 }
 .caja {
   max-width: 430px;
+  height: auto;
+  margin: 0 10px;
   background-color: #fff;
   box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
 }
+.caja img {
+  width: 100%;
+}
 .caja__contenido {
   padding: 20px;
+  padding-top: 20px;
   background-color: #fff;
 }
 .caja__contenido span {
@@ -94,8 +101,8 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
-.caja__imagen img {
-  width: 100%;
+.caja__contenido p {
+  margin: auto 0;
 }
 .estadistica--articulos {
   height: 70px;
