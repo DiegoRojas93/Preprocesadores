@@ -3,6 +3,8 @@
 Es el preprocesador CSS más reciente de los tres. Fue creado por TJ Holowaychuk (ex programador de Node.js) y escrito en JADE y Node.js.
 
 
-### Funciones
+### Condicionales y Loops
 
-La diferencia entre mixins y funciones es que las funciones por general hacen cálculos y regresan un resultado que es usado como valor de alguna propiedad.
+Un **condicional** nos permite evaluar cierta condición y bifurcar entre dos caminos dependiendo de si se cumple o no.
+
+Un **loop** es un fragmento de código que va a ejecutar de forma repetitiva hasta que cumpla una condición.
